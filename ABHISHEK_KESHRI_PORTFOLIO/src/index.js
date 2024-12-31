@@ -1,6 +1,10 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.css';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom/client'; // Import ReactDOM from 'react-dom/client'
+
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // Required for toggling
+
 
 import App from './App';
 
